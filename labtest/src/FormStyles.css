@@ -1,0 +1,44 @@
+.form-wrapper {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.form-wrapper h2 {
+    margin-bottom: 25px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.form-wrapper input {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.form-wrapper button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.form-wrapper button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    color: #d9534f;
+    margin-top: 15px;
+}

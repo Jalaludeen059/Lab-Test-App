@@ -1,0 +1,122 @@
+.about-page {
+    text-align: center;
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+    background-image: url('Assets/door.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Make the background fixed during scroll */
+    color: #f8f9fa; /* Light text color to contrast with dark background */
+}
+
+.about-header {
+    background-color: rgba(52, 58, 64, 0.8); /* Darker background with transparency */
+    color: #ffffff; /* White text color for contrast */
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.about-header p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.about-content {
+    margin: 0 auto;
+    color: #f8f9fa; /* Light text color for readability */
+    max-width: 800px;
+    text-align: left;
+    background-color: rgba(52, 58, 64, 0.8); /* Background with transparency */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-content h2 {
+    color: #6f42c1; /* Purple for headings */
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #6f42c1;
+    padding-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.about-content ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.about-content ul li {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for grid items */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.about-content ul li:hover {
+    transform: translateY(-5px);
+}
+
+.about-content ul li strong {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #ffffff; /* White text for grid items */
+}
+
+.about-content ul li p {
+    margin: 0;
+    font-size: 1em;
+    color: #f8f9fa; /* Light text for details */
+}
+
+.about-content a {
+    color: #17a2b8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-content a:hover {
+    text-decoration: underline;
+    color: #117a8b;
+}
+
+.about-footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    padding-top: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .about-content ul {
+        grid-template-columns: 1fr;
+    }
+
+    .about-header h1 {
+        font-size: 2em;
+    }
+
+    .about-content h2 {
+        font-size: 1.75em;
+    }
+}
